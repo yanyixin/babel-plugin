@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanyixin/babel-plugin.git"
+  },
+  "author": "yanyixin <ymfighting1@gmail.com> (https://github.com/yanyixin)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanyixin/babel-plugin/issues"
+  },
+  "homepage": "https://github.com/yanyixin/babel-plugin#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-types": "^6.26.0"
+  }
+}
