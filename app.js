@@ -1,8 +1,10 @@
 const babel = require("babel-core");
 
-const result = babel.transform("const result = 1 + 2;", {
+const result = babel.transform("let bad = true", {
   plugins: [
-    require("./index")
+    ['./index', {
+      "bad": "good"
+    }]
   ]
 })
 
